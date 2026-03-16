@@ -1,7 +1,7 @@
 # DIY Passive to Active Loudspeaker Conversion 
 ### One hour modification of an off-the-shelf passive speaker — installing a Sonocotta Louder ESP32 controller with integrated DAC, DSP & amplifier for whole-home audio and TTS notifications with Home Assistant and Music Assistant.
 
-![home-assistant-audio-speaker-esp32-active-sonos-alternative](F:\3D Speakers\Marketing - GitHub Repository - Tozzi One\images\home-assistant-audio-speaker-esp32-active-sonos-alternative.JPEG)
+![home-assistant-audio-speaker-esp32-active-sonos-alternative](F:\3D Speakers\Marketing - GitHub Repository - Tozzi One\images\home-assistant-audio-speaker-esp32-active-sonos-alternative.jpg)
 *Completed modification of the Tozzi One speaker for wireless whole home audio using Home Assistant.*
 
 ---
@@ -32,6 +32,7 @@
 
 **This is NOT:**
 - A project that requires wood working skills to build a speaker cabinet from scratch. 
+- A speaker you should build for use without LMS or Music Assistant.  The [ESP32 Squeezelite GitHub](https://github.com/sle118/squeezelite-esp32) page is adamant (SEE Forewards [sic] section below title)  that while the firmware supports Bluetooth, AirPlay and Spotify Connect, they are add-ons to the primary functionality of connecting to LMS. Furthermore, Sonocotta warns the LOUDER ESP32 boards aggressively search for LMS and some boards may drop connections in an attempt to reboot and scan for LMS instances.
 - A smart speaker. Although the ESP32 controller has an S3 option, there is no practical means of adding a microphone to the cabinet at this time.  Stay tuned for future build this year.
 
 ---
@@ -44,7 +45,7 @@ I wanted to replicate a Sonos-style multi-room audio setup, but without the expe
 
 The next question was how to find an enclosure, simply and quickly. Many forum posts featured users experimenting with 3D-printed speaker enclosures. 3D printing is innovative but neither quick nor inexpensive, and MDF flat packs require sawing, sanding and painting.
 
-LUCKILY, I stumbled across a speaker *KIT* — the Tozzi One — built using 3D printed components for easy assembly. The enclosure consists of a beautiful front face, box frame and a removable back panel with a tuned port for bass reproduction. The speaker was never widely adopted and was discontinued years ago, but surplus kits are still available from an online store in the UK.
+LUCKILY, I stumbled across a speaker *KIT* — the Tozzi One — built using 3D printed components for easy assembly. This is a custom designed high-fidelity single driver speaker, created by Mark Fenlon, a noted audio and acoustics engineer. The enclosure consists of a beautiful front face, box frame and a removable back panel with a tuned port for bass reproduction. The speaker was never widely adopted and was discontinued years ago, but surplus kits are still available from an online store in the UK.
 
 ---
 
@@ -103,6 +104,7 @@ Links are for the actual product I purchased.
 
 - Approximately 1 hour (or less) per speaker.
 - The steps are easy and straight forward. I took my time when building the first time, but could replicate in under 30 minutes.
+- **Before starting**,  [**download the actual Tozzi One instruction guide**](https://www.markaudio.com/wp-content/uploads/2020/08/installation_guide_20200813.pdf) for building the speaker - as an additional reference to its parts and assembly.
 
 
 
@@ -312,11 +314,19 @@ This is **Build #1** in a planned series of passive-to-active speaker conversion
 
 ## Credits & References
 
+- [Tozzi One Speaker Kit Instruction Guide](https://www.markaudio.com/wp-content/uploads/2020/08/installation_guide_20200813.pdf)
+
 - [Sonocotta Louder ESP32 Documentation](https://github.com/sonocotta/esp32-audio-dock)
-- [Squeezelite-ESP32 Firmware](https://sonocotta.github.io/esp32-audio-dock/)
+
+- [Squeezelite-ESP32 Firmware Installation Page](https://sonocotta.github.io/esp32-audio-dock/)
+
+- [Squeezelite-ESP32 GitHub Page](https://github.com/sle118/squeezelite-esp32)
+
 - [Music Assistant for Home Assistant](https://music-assistant.io/)
+
 - [Home Assistant Media Player Integration](https://www.home-assistant.io/integrations/media_player/)
-- 
+
+  
 
 ---
 
