@@ -1,7 +1,7 @@
 # DIY Passive to Active Loudspeaker Conversion 
 ### One hour modification of an off-the-shelf passive speaker — installing a Sonocotta Louder ESP32 controller with integrated DAC, DSP & amplifier for whole-home audio and TTS notifications with Home Assistant and Music Assistant.
 
-![home-assistant-audio-speaker-esp32-active-sonos-alternative](images\home-assistant-audio-speaker-esp32-active-sonos-alternative.jpg)
+![home-assistant-audio-speaker-esp32-active-sonos-alternative](images/home-assistant-audio-speaker-esp32-active-sonos-alternative.jpg)
 *Completed modification of the Tozzi One speaker for wireless whole home audio using Home Assistant.*
 
 ---
